@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shobojit.siuapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name="com.example.asad.siuapp.ApplicationClass.App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.asad.siuapp.Home.MainActivity" />
+        <activity android:name="com.example.asad.siuapp.Splashscreen.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.asad.siuapp.Home.Activity.Academic_Calender"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.example.asad.siuapp.Home.Activity.Notice_Activity"
+            android:configChanges="orientation|screenSize" />
+        <activity
+            android:name="com.example.asad.siuapp.Home.Activity.NoticeDetail"
+            android:configChanges="orientation|screenSize" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Eng_fac" />
+        <activity android:name="com.example.asad.siuapp.Home.Syllabus_Activity.Cse_syl" />
+        <activity android:name="com.example.asad.siuapp.Home.Syllabus_Activity.Ece_syl" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Law_fac" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Hum_fac" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Buc_fac" />
+
+        <meta-data
+            android:name="com.onesignal.NotificationOpened.DEFAULT"
+            android:value="DISABLE" />
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c5fb3b7fba176c02aba7cdee2197e7ccf34a22f7" />
+
+        <activity android:name="com.example.asad.siuapp.OneSignalActivity.TextActivity" />
+        <activity android:name="com.example.asad.siuapp.OneSignalActivity.ImageActivity" />
+        <activity android:name="com.example.asad.siuapp.Home.Activity.Notice_Detail_02" />
+        <activity android:name="com.example.asad.siuapp.Home.lab.cse_lab" />
+        <activity android:name="com.example.asad.siuapp.Home.lab.ece_lab" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.Cse_Teacher_Detail" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.Ece_Teacher_Detail" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.Eng_Teacher_Detail" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.Bba_Teacher_Detail" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.Llb_Teacher_Detail" />
+        <activity android:name="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.engdbating" />
+        <activity android:name="com.example.asad.siuapp.Home.Activity.Vc" />
+        <activity android:name="com.example.asad.siuapp.Home.Activity.Chairman" />
+    </application>
+
+</manifest>

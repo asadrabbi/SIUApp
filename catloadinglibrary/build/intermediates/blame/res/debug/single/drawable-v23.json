@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\CSE\\SiuApp\\catloadinglibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "E:\\CSE\\SiuApp\\catloadinglibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "D:\\SiuApp\\catloadinglibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "D:\\SiuApp\\catloadinglibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "E:\\CSE\\Android Project\\SiuApp\\catloadinglibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "E:\\CSE\\Android Project\\SiuApp\\catloadinglibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\catloadinglibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\catloadinglibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "E:\\CSE\\Android\\Android Project\\SiuApp\\catloadinglibrary\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "E:\\CSE\\Android\\Android Project\\SiuApp\\catloadinglibrary\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.2.1\\res\\drawable-v23\\abc_control_background_material.xml"
+    }
+]

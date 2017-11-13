@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+
+            android:layout_width="fill_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+
+                    <com.daimajia.slider.library.SliderLayout
+                        android:id="@+id/slider"
+                        android:scaleType="fitXY"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        />
+                    <WebView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/NormalText"></WebView>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="120dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="05"
+                            android:id="@+id/ttdate"
+                            android:textSize="25sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Novembar"
+                            android:id="@+id/ttmonth"
+                            android:textSize="20sp"
+                            android:textStyle="bold"/>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="0dp"
+                        android:gravity="center"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+                        <DigitalClock
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="20sp"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Saturday"
+                            android:id="@+id/ttday"
+                            android:textSize="15sp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+                    <android.support.v7.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:orientation="vertical"
+
+                                android:layout_height="wrap_content">
+                               <com.github.mikephil.charting.charts.PieChart
+                                   android:layout_width="match_parent"
+                                   android:id="@+id/chart"
+                                   android:layout_height="300dp">
+
+                               </com.github.mikephil.charting.charts.PieChart>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="40dp"
+                                    android:background="@color/colorPrimary"
+                                    android:textColor="#fff"
+                                    android:gravity="center"
+                                    android:textSize="13sp"
+                                    android:textStyle="bold"
+                                    android:text="Student Statistics"
+                                    android:id="@+id/textView7" />
+                            </LinearLayout>
+                    </android.support.v7.widget.CardView>
+
+
+            <android.support.v4.widget.Space
+                android:layout_width="wrap_content"
+                android:layout_height="20dp" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="@color/fab_exit"
+        android:src="@drawable/fab_exit"
+        android:visibility="invisible"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="180dp"
+        android:id="@+id/fab_exit" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        app:backgroundTint="@color/fab_man"
+        android:visibility="invisible"
+        android:src="@drawable/fab_man"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/fab_man" />
+
+   <android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginRight="16dp"
+        android:elevation="6dp"
+        app:pressedTranslationZ="12dp"
+        android:src="@drawable/ic_action_fab"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:id="@+id/fab" />
+
+    <include layout="@layout/about_me"/>
+</android.support.design.widget.CoordinatorLayout>

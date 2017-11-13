@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\raw\\consumer_onesignal_keep.xml",
+        "source": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.onesignal\\OneSignal\\3.5.8\\res\\raw\\consumer_onesignal_keep.xml"
+    },
+    {
+        "merged": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\raw\\consumer_onesignal_keep.xml",
+        "source": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.onesignal\\OneSignal\\3.5.8\\res\\raw\\consumer_onesignal_keep.xml"
+    },
+    {
+        "merged": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\raw\\consumer_onesignal_keep.xml",
+        "source": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.onesignal\\OneSignal\\3.6.2\\res\\raw\\consumer_onesignal_keep.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\raw\\consumer_onesignal_keep.xml",
+        "source": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.onesignal\\OneSignal\\3.5.6\\res\\raw\\consumer_onesignal_keep.xml"
+    }
+]

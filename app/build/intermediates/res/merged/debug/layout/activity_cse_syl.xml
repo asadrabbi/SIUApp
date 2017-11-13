@@ -1,0 +1,3194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_cse_syl"
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="vertical"
+tools:context="com.example.asad.siuapp.Home.Syllabus_Activity.Cse_syl">
+<android.support.v7.widget.Toolbar
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:id="@+id/csesyltool"
+    android:title="Syllabus"
+
+    android:layout_height="?attr/actionBarSize"></android.support.v7.widget.Toolbar>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+   <!--     <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">-->
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="@string/first_year_semester_i"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="@string/course_no"
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView25" />
+
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:gravity="center"
+                            android:text="CSE-101"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Fundamentals"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="@string/cse_102"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="@string/computer_fundamentals_labs"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="PHY-101"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView24" />
+
+                        <TextView
+                            android:text="Mechanics, Properties of Matter, Waves, Optics, Heat and thermodynamics"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="MTH-101"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Fundamentals of Mathmatics"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-105"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Structured Programming Language"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-106"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Structured Programming Language Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="HUM-103"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Bangladesh Studies"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="HUM-105"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Oral and Written Communication in English Language"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+
+                    <TableRow>
+
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView27" />
+
+                        <TextView
+                            android:text=""
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="20.50"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="First Year: Semester II"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="wrap_content" />
+                <TableLayout
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-107"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Object Oriented Programming I"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-108"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Object Oriented Programming I Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="MTH-107"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Geometry and Linear Algebra"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="PHY-103"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Electricity and Magnetism, and Modern Physics"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="PHY-102"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Physics Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ECE-101"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Basic Electrical Engineering"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ECE-102"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Basic Electrical Engineering Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+
+                    <TableRow
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <TextView
+                            android:text="HUM-103"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Language Composition and Comprehension"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:text="ECN-101"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            />
+
+                        <TextView
+                            android:text="Principles of Economics"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+
+                    <TableRow>
+
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/textView26" />
+
+                        <TextView
+                            android:text=""
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="22.50"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Second Year: Semester I"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-201"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Discrete Mathmatics"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-211"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Object Oriented Programming II"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-212"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Object Oriented Programming Lab II"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-205"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Data Structure"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-206"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Data Structure Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="3dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="MTH-205"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Vector Analysis and Complex Variable"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ECE-201"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Electronic Device and Circuit"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ECE-202"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Electronic Device and Circuit Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="2dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ACN-201"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Principles of Accounting"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=""
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="22.50"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Second Year: Semester II"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-207"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Algorithms"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-208"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Algorithms Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-209"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Numerical Methods"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-210"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Numerical Methods Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-231"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Logic Design"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-232"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Logic Design Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="MTH-207"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Differential Equations, Laplace Transforms"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-200"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Project Work"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="2"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=""
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="18.50"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Third Year: Semester I"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-321"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Database Systems"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-322"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Database Systems Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-331"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Architecture"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-323"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Web Engineering"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="2.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-324"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Web Engineering Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="MTH-301"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Statistics and Probability"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="2.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-309"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Cyber crime and Intellectual Property Law"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-310"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Technical Report Writing and Presentation"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-326"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Engineering Drawing"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.0"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=""
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="18.50"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Third Year: Semester II"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-300"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Software Development"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="2.0"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-303"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Operating Systems"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-304"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Operating Systems Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-315"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Data Communication"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-313"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Microprocessors and Microcontroller"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-314"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Microprocessors and Microcontroller Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-337"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="System Analysis and Software Engineering"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-338"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="System Analysis and Software Engineering Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=""
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="18.50"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Fourth Year: Semester I"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="@string/cse_425"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Signal Processing"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-426"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Signal Processing Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-403"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Compiler Design"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-404"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Compiler Design Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-421"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Network"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-422"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Network Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-4**"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Option"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-4**"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Option Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=""
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="18"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Fourth Year: Semester II"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-415"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Artificial Intelligence"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-416"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Artificial Intelligence Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-431"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Graphics"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-432"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Graphics Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-435"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Interfacing"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-436"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer Interfacing Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-4**"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Option"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-4**"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Option Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-400"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Project / Thesis"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="2"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CVV-402"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Comprehensive Viva Voce"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="2"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text=""
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="23.00"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+
+
+
+                <android.support.v4.widget.Space
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Option"
+                    android:textSize="25sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:background="@color/colorPrimary"
+                    android:layout_height="match_parent" />
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="Course No."
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Course Title"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Credits"
+                            android:gravity="center"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-437"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Pattern Recognition"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-438"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Pattern Recognition Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-411"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="VLSI Design"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-412"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="VLSI Design Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:gravity="center"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-419"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Graph Theory"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-420"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Graph Theory Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-423"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer System Performance Evaluation"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-424"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Computer System Performance Evaluation Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="15sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ECE-421"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Communication"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="ECE-422"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Communication Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-407"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Simulation and Modeling"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3.0"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-408"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Simulation and Modeling Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-453"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Image Processing"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-454"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Digital Image Processing Lab"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="1.5"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow
+                        android:orientation="horizontal">
+                        <TextView
+                            android:text="CSE-455"
+                            android:textSize="13sp"
+                            android:gravity="center"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="Wireless and sensor Networks"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="3"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+
+                    <android.support.v4.widget.Space
+                        android:layout_height="5dp"
+                        android:layout_width="match_parent"/>
+                    <TableRow>
+                        <TextView
+                            android:text="Total Credit Hours Required for Degree"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:textStyle="bold"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                        <TextView
+                            android:text="162.00"
+                            android:textStyle="bold"
+                            android:textSize="13sp"
+                            android:textColor="#000"
+                            android:gravity="center"
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+        <!--</android.support.v7.widget.CardView>-->
+
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>

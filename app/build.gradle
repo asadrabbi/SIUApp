@@ -1,0 +1,65 @@
+
+apply plugin: 'com.android.application'
+repositories {
+    mavenCentral()
+
+}
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.2"
+    defaultConfig {
+        applicationId 'com.example.asad.siuapp'
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 1
+        multiDexEnabled true
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    compile 'com.android.support:multidex:1.0.1'
+
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.android.support:appcompat-v7:25.3.1'
+    compile 'de.hdodenhof:circleimageview:2.1.0'
+    compile 'com.android.support:support-v4:25.0.1'
+    compile 'com.squareup.picasso:picasso:2.3.2'
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.daimajia.slider:library:1.1.5@aar'
+
+    compile 'com.facebook.fresco:fresco:0.14.1'
+
+    compile 'org.jsoup:jsoup:1.10.1'
+    compile 'com.android.support:cardview-v7:25.3.1'
+    compile 'com.android.support:design:25.3.1'
+
+    testCompile 'junit:junit:4.12'
+
+    compile 'com.github.chrisbanes.photoview:library:1.2.4'
+    compile project(':catloadinglibrary')
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'nl.littlerobots.cupboard-tools:gson:0.3.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.1'
+    compile 'com.github.mancj:SlideUp-Android:1.0-beta'
+    compile 'com.flaviofaria:kenburnsview:1.0.7'
+}
+

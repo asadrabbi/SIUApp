@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#def9f3f3"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardCornerRadius="20dp"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="15dp"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:src="@drawable/address"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/circleImageView" />
+
+            <TextView
+                android:text="SHAMIMABAD, BAGHBARI SYLHET, BANGLADESH"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#f79928"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardCornerRadius="20dp"
+        android:id="@+id/phone"
+
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:src="@drawable/phone"
+                android:layout_gravity="center"
+                android:layout_height="match_parent"
+                android:id="@+id/circleImageView2" />
+
+
+            <TextView
+                    android:text="+880-821-717193"
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+                    android:textColor="#e48c22"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10" />
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:id="@+id/fax"
+        card_view:cardCornerRadius="20dp"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:src="@drawable/fax"
+                android:layout_gravity="center"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="+880-821-725644"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#f49725"
+                android:layout_height="match_parent"
+                android:id="@+id/textView11" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardCornerRadius="20dp"
+        android:id="@+id/mobile"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:src="@drawable/mobile"
+                android:layout_gravity="center"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:text="+880-1754313182"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:textColor="#d98620"
+                android:layout_height="match_parent"
+                android:id="@+id/textView12" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="5dp" />
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardCornerRadius="20dp"
+        android:id="@+id/email"
+        android:layout_height="100dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_gravity="center"
+            android:layout_height="match_parent">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:src="@drawable/mail"
+                android:layout_gravity="center"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="info@siu.edu.bd"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="18sp"
+
+                android:layout_gravity="center"
+                android:textColor="#f79c2c"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

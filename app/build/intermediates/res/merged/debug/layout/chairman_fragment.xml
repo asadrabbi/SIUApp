@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:layout_height="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:id="@+id/chtool"
+        android:background="@color/colorPrimaryDark"></android.support.v7.widget.Toolbar>
+
+    <ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:descendantFocusability="blocksDescendants"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <com.facebook.drawee.view.SimpleDraweeView
+                fresco:placeholderImage="@drawable/placeholderhuman"
+                android:id="@+id/chairmanimage"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:text="Chairman | Mr. Shamim Ahmed"
+                android:id="@+id/textView7" />
+            <WebView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/chairmanText">
+            </WebView>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</ScrollView>
+</LinearLayout>

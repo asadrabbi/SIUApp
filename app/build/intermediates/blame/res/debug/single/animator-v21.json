@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    },
+    {
+        "merged": "D:\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
+        "source": "D:\\SiuApp\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\25.3.1\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+    }
+]

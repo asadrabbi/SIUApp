@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Siu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="chairman1">Mr. Shamim Ahmed joined as Chairman of the Trustee Board (Gulshan Foundation for Education Development) of Sylhet International University on the 31st October, 2009 when his uncle Mr. Kutubuddin Ahmed retired on health grounds.</string>
+    <string name="chairman2">Mr. Shamim Ahmed is a scion of an illustrious family which always played a philanthropic role in the social development of Sylhet region. His father late Moin Uddin Ahmed donated land and did the construction work at his own expense to establish Moin Uddin Adarsha Mohila College in 1984. His uncle Mr. Kutubuddin Ahmed worked hand in hand with his father in all these philanthropic work. Subsequently in the vicinity of Moin Uddin Adarsha Mohila College, Sylhet International University was also established in 2001 on land donated by the same family. Not only the land but also the funds required for the initial construction work was donated by the family of Mr. Shamim.</string>
+    <string name="chairman3">Mr. Shamim Ahmed, now in his early forties, is a smart gentleman with a brilliant academic career. Having been schooled at Blue Bird School and Sylhet Government Pilot School, Mr. Shamim Ahmed achieved talent scheme scholarships both at primary and junior school levels. Thereafter, he obtained good results at SSC and HSC examinations from science group and graduated with BSc degree from Sylhet Government College. He then went to United Kingdom for higher studies and added to his career the degrees of BSc. (Engg.) in Electronics and MBA. </string>
+    <string name="chairman4">A businessman by profession, Mr. Shamim Ahmed has a tight schedule of making frequent trips to different countries. Yet he has all the acumen and administrative capability to guide Sylhet International University as the Chairman of its Trustee Board. We hope that under his able guidance Sylhet International University will soon become internationally famous seat of learning and research.</string>
+
+    <string name="Home1">The principal aim of the SIU is to provide high quality education at undergraduate and postgraduate levels relevant to the needs of a dynamic society.</string>
+    <string name="Home2">The courses and curricula are so designed as to enable a student to enter into the world of work or pursue higher academic and professional goals with a sound academic foundation.</string>
+    <string name="Home3">The academic goal of the university is not just to make the students pass the examination and get the degree but to equip them with the means to become productive members of the community and continue the practice of lifelong learning.</string>
+    <string name="Home4">SIU was established from the very beginning with a campus of its own. The campus is very much within the city of Sylhet though it is relatively calm and quiet, just suitable for the pursuit of knowledge. It is within walking distance from the Osmani Medical College Hospital.</string>
+
+    <string name="vc1">Welcome to SIU, Where excellent is nurtured, Pursued and celebrated. The student of today are the architects of today or tomorrow. To meet the challenges of the present in an ever charging globe, teeming with bleeding edge technology and relentless competitor .the graduates of today must also be determined but flexible, dexterous but resolute.</string>
+    <string name="vc2">Sylhet International University has been established with a view to creating an educational institution with a difference. It’s goal is to provide quality education in the field of Engineering and Business and at the same time to produce skilled professionals with high standard of human/moral values. Our mission goal demands of us not just remain another participant in the sea of private initiatives for higher education in Bangladesh, but to also be a major player in the transmission and dissemination of knowledge, research and technology in Bangladesh.</string>
+    <string name="vc3">Whether you join us from across the campus or from the other side of the word. I am proud to welcome our SIU family. It is only matter of time before  SIU finds itself in the hearts and minds of prospective students and parents alike of the near future.</string>
+
+
+    <string name="library">SIU has a separate large building used as central library which can accommodate more than three hundred students at a time. There is a separate chamber where about 30 teachers can study. The number of books in the library are about 12 thousand which is beings continually increased. Also, the library is enriched by hundreds of scholarly journals, magazines, and CDs.</string>
+
+
+    <string name="accomadation">
+        SIU has female hostels in three separate buildings just adjacent to the campus where about 250 female students can be accommodated.
+        Supervised by one provost and two assistant provosts, these hostels are safe, comfortable and quiet.
+
+        A female student can easily confirm a seat in hostel by following some easy procedure.
+        She just needs to inform University authority to get a seat there then fill up a form regarding some academic and personal information.
+        University will immediately allow her to shift in hostel. University Hostel has 24/7 electricity and all other services available including a strong security management.
+    </string>
+
+
+
+    <string name="ac1">
+        The American Corner Sylhet is an Informational Resource Center of the U.S Embassy, Dhaka. It provides information services to the Sylhet community on American history, culture, society, literature, art, government, politics, education, commercial opportunities, and many others topics. The American Corner Sylhet is open to all visitors. In order to use the resources and facilities of the Corner, users must purchase a membership.
+        \n\n<b>In our Collection</b>
+        \nThe American Corner Sylhet is equipped with the latest and most accurate information available from print and electronic media. A collection of several volumes of reference books, prints periodicals, CD-ROM, and DVDs are available for use.
+        \n\n<b>Reference Materials</b>
+        \nThe reference collection in the Conner includes dictionaries, directories, encyclopedia, almanacs, periodicals and others books help especially for consultation. Reference books on TOEFL, GRE, SAT, Guides admission to college and Universities in the U.S.A is also available. The reference collection is best used in person, but our professional staff does answer queries by telephone, email, fax, or mail.
+           </string>
+
+
+    <string name="ac2">
+        <b>Films</b>
+        \nIn addition to the print collection, the corner maintains a collection of DVDs. Patrons may view the DVDs at one of the corners TV station.
+        \n\n<b>Newspaper, Periodicals</b>
+        \nThe American corner has a good collection of vary resourceful   CDs. The most popular CDs are Encarta Encyclopedia, Encyclopedia Americana, Flash back Atlas, Multimedia of US. History, National Gallery of Art, World Book encyclopedia, life in pioneer America and Jazz Grates.
+         </string>
+
+     <string name="ac3">
+         <b>Internet Access</b>
+         \nThe American Corner maintains computers on which patrons can access internet for free.
+         \n\n<b>More Information</b>
+        \nThe American Corner is open to all visitors; However, To use the resources and facilities of the corner, membership is needed.
+    </string>
+
+<string name="wifi">
+            Campus is Fully Covered with High Speed Wi-Fi Internet.Students are given access to high speed internet all over the campus through wifi.
+        </string>
+<string name="classroom">
+        Amazingly Decorated Air Conditioned Classrooms. So the students can study in comfort.
+    </string>
+<string name="activity">
+        Students can participate in various extra curricular activities through various clubs.
+    </string>
+    <string name="cse_425">CSE-425</string>
+    <string name="first_year_semester_i">First Year: Semester I</string>
+    <string name="course_no">Course No.</string>
+    <string name="cse_102">CSE-102</string>
+    <string name="computer_fundamentals_labs">Computer Fundamentals Labs</string>
+    <string name="extra_curricular_activities">Extra Curricular Activities</string>
+</resources>

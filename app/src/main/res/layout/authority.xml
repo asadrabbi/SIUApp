@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#def9f3f3"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    card_view:cardCornerRadius="20dp"
+    android:layout_height="wrap_content">
+   <Button
+       android:layout_width="match_parent"
+       android:text="Chairman"
+       android:id="@+id/auth1"
+       android:textSize="28dp"
+       android:background="#fff"
+       android:textColor="#ce000000"
+        android:textAlignment="center"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:layout_height="120dp" />
+</android.support.v7.widget.CardView>
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:text="Chancellor"
+            android:textSize="28dp"
+            android:id="@+id/auth2"
+            android:textColor="#ce000000"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="#fff"
+            android:textStyle="bold"
+            android:layout_height="120dp" />
+    </android.support.v7.widget.CardView>
+
+        <android.support.v4.widget.Space
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        card_view:cardCornerRadius="20dp"
+        android:layout_height="wrap_content">
+
+
+    </android.support.v7.widget.CardView>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,996 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="5dp"
+            android:orientation="vertical">
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:text="Day Programs "
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="wrap_content" />
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:padding="2dp"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content">
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="Program"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Cost Per Semester"
+                                android:layout_width="0dp"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Total Cost"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="BBA"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/textView6" />
+
+                            <TextView
+                                android:text="Tk. 29000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="Tk. 232000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/textView8" />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="CSE"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Tk. 30000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Tk. 240000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t6" />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="ECE"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 30000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 240000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="English"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 22000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 176000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="LL.B"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/textView9" />
+
+                            <TextView
+                                android:text="Tk. 25000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 200000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                    </TableLayout>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:text="  * 4 year’s (8 Semester)"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/space" />
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Evening Programs"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView21" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:padding="2dp"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content">
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Program"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/textView7" />
+
+                            <TextView
+                                android:text="Cost Per Semester"
+                                android:layout_width="0dp"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Total Cost"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="CSE (Eve)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 30000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 180000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="ECE (Eve)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 30000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 180000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="LL.B (Pre and Final)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 22000	"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 88000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="LL.M (1 year)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 23000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 46000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="LL.M (2 year)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 23000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 92000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="MA in English (Final)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 22000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 44000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="MA in English (Preliminary)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/textView5" />
+
+                            <TextView
+                                android:text="Tk. 22000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 88000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="MBA (1 year)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 23000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 46000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="MBA (2 year)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 23000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 92000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="MBA (Executive)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="Tk. 23000"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="Tk. 69000"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                        </TableRow>
+                    </TableLayout>
+                    <android.support.v4.widget.Space
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:text="  * 1 year (2 Semester)"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:textSize="15sp"
+                        android:textColor="#000"
+                        android:text="  * 2 year (4 Semester)"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:text="Waiver Rates"
+                        android:gravity="center"
+                        android:textStyle="bold"
+                        android:textSize="18sp"
+                        android:background="@color/colorPrimary"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView4" />
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:padding="2dp"
+                        android:layout_margin="5dp"
+                        android:layout_height="wrap_content">
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="Principles"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:textStyle="bold"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Rates"
+                                android:layout_width="0dp"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Applicable For"
+                                android:textSize="15sp"
+                                android:textColor="#000"
+                                android:gravity="center"
+                                android:textStyle="bold"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="Childreen of Freedom Fighters"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t1" />
+                            <TextView
+                                android:text="100%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t2" />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t3" />
+                        </TableRow>
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="GPA 5.0 in both SSC and HSC"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t4" />
+                            <TextView
+                                android:text="100%"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:gravity="center"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t5" />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="Sum of GPA in SSC and HSC 9"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"/>
+                            <TextView
+                                android:text="50%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t8" />
+                            <TextView
+                                android:text="Male"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t9" />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+                            <TextView
+                                android:text="Sum of GPA in SSC and HSC 9"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t10" />
+                            <TextView
+                                android:text="60%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t11" />
+                            <TextView
+                                android:text="Female"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t12" />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Sum of GPA in SSC and HSC 8"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1" />
+                            <TextView
+                                android:text="10%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t14" />
+                            <TextView
+                                android:text="Male"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:id="@+id/t15" />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Sum of GPA in SSC and HSC 8"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="20%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="Female"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Scored >=3.75 in both semesters of a year"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="25%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Physically Disable Students"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="50%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Tribal Students"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="25%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="A Couple (Husband/Wife)"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="25%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="match_parent"
+                            android:layout_height="5dp" />
+
+                        <TableRow android:orientation="horizontal">
+
+                            <TextView
+                                android:text="Siblings"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+
+                            <TextView
+                                android:text="50%"
+                                android:gravity="center"
+                                android:layout_width="0dp"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                            <TextView
+                                android:text="All"
+                                android:gravity="center"
+                                android:textSize="12sp"
+                                android:textColor="#000"
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                />
+                        </TableRow>
+                    </TableLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+        </LinearLayout>
+</ScrollView>

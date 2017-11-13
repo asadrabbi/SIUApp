@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "D:\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menuitem.xml",
+        "source": "D:\\SiuApp\\app\\src\\main\\res\\menu\\menuitem.xml"
+    },
+    {
+        "merged": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menuitem.xml",
+        "source": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\src\\main\\res\\menu\\menuitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menuitem.xml",
+        "source": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\src\\main\\res\\menu\\menuitem.xml"
+    },
+    {
+        "merged": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menuitem.xml",
+        "source": "E:\\CSE\\SiuApp\\app\\src\\main\\res\\menu\\menuitem.xml"
+    },
+    {
+        "merged": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menuitem.xml",
+        "source": "E:\\CSE\\Android Project\\SiuApp\\app\\src\\main\\res\\menu\\menuitem.xml"
+    }
+]

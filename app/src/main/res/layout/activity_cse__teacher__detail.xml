@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asad.siuapp.Home.Faculty_Activity.Teacher_Detail.Cse_Teacher_Detail">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:id="@+id/csefactol"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="?attr/actionBarSize">
+
+    </android.support.v7.widget.Toolbar>
+    <ListView
+        android:layout_width="match_parent"
+        android:id="@+id/csefaclist"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>

@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fab_exit.png",
+        "source": "E:\\CSE\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\fab_exit.png"
+    },
+    {
+        "merged": "E:\\CSE\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_fab.png",
+        "source": "E:\\CSE\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_fab.png"
+    },
+    {
+        "merged": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fab_exit.png",
+        "source": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\fab_exit.png"
+    },
+    {
+        "merged": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_fab.png",
+        "source": "E:\\CSE\\Android\\Android Project\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_fab.png"
+    },
+    {
+        "merged": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_fab.png",
+        "source": "E:\\CSE\\Android Project\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_fab.png"
+    },
+    {
+        "merged": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fab_exit.png",
+        "source": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\fab_exit.png"
+    },
+    {
+        "merged": "D:\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fab_exit.png",
+        "source": "D:\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\fab_exit.png"
+    },
+    {
+        "merged": "E:\\CSE\\Android Project\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\fab_exit.png",
+        "source": "E:\\CSE\\Android Project\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\fab_exit.png"
+    },
+    {
+        "merged": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_fab.png",
+        "source": "C:\\Users\\SHOBOJIT\\AndroidStudioProjects\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_fab.png"
+    },
+    {
+        "merged": "D:\\SiuApp\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_fab.png",
+        "source": "D:\\SiuApp\\app\\src\\main\\res\\drawable-xhdpi\\ic_action_fab.png"
+    }
+]

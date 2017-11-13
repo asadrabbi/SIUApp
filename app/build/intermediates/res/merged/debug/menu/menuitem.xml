@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/m1"
+
+            />
+        <item
+            android:id="@+id/authomenu"
+            android:title="Authority"
+            android:icon="@drawable/per"
+
+            />
+        <!--<item
+            android:id="@+id/chairmanmenu"
+            android:title="Chairman"
+            android:icon="@drawable/per"
+
+            />-->
+
+        <item
+            android:id="@+id/admission"
+            android:title="Admission"
+            android:icon="@drawable/admission"
+
+            />
+        <item
+            android:id="@+id/school"
+            android:title="School"
+            android:icon="@drawable/m2"
+
+            />
+        <item
+            android:id="@+id/calender"
+            android:title="Academic Calender"
+            android:icon="@drawable/calendar"
+
+            />
+        <item
+            android:id="@+id/library"
+            android:title="Library"
+            android:icon="@drawable/library"
+
+            />
+        <item
+            android:id="@+id/notice"
+            android:title="Notice"
+            android:icon="@drawable/alert"
+
+            />
+        <item
+            android:id="@+id/website"
+            android:title="Website"
+            android:icon="@drawable/web"
+
+            />
+        <item
+            android:id="@+id/americancorner"
+            android:title="American Corner"
+            android:icon="@drawable/cornerlogo"
+
+            />
+        <item
+            android:id="@+id/facilities"
+            android:title="Facilities"
+            android:icon="@drawable/faclogo"
+
+
+            />
+        <item
+            android:id="@+id/contact"
+            android:title="Contact"
+            android:icon="@drawable/m3"
+
+            />
+        <item
+            android:checkableBehavior="single"
+            android:id="@+id/exit"
+            android:title="Exit"
+            android:icon="@drawable/exit"
+
+            />
+    </group>
+</menu>

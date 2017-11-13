@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+    android:scaleType="fitXY"
+    android:background="@drawable/campus"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome To"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_marginBottom="44dp"
+        android:id="@+id/tt1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:text="Sylhet International University"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/textView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/tt1"
+        android:layout_alignStart="@+id/tt1" />
+
+
+</RelativeLayout>

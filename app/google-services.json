@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "461900248898",
+    "firebase_url": "https://siuapp-ea105.firebaseio.com",
+    "project_id": "siuapp-ea105",
+    "storage_bucket": "siuapp-ea105.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:461900248898:android:827609039202605d",
+        "android_client_info": {
+          "package_name": "com.example.shobojit.siuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "461900248898-6l75t1qv5vq5r0pukb7b1mv4spa291r2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shobojit.siuapp",
+            "certificate_hash": "1046867DDB6833990A8B9B55558270D3BB1184F5"
+          }
+        },
+        {
+          "client_id": "461900248898-tujdet8n539rdflhmjhptqb2kq5f5dqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdkHXYPlj3AbT3WULUe72_QXG1ZiN6c5g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "461900248898-tujdet8n539rdflhmjhptqb2kq5f5dqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
